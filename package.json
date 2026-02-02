@@ -1,5 +1,6 @@
 {
   "name": "servereless-template-api",
+  "description": "A Serverless Template (which also works for conventional servers) that is independent of any framework.",
   "version": "1.0.0",
   "keywords": ["serverless-template", "template", "serverless", "server", "server-template", "middy", "clean architecture", "ddd"],
   "author": "Felipe Oliveira",
