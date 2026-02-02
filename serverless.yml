@@ -1,11 +1,12 @@
 org: felipstein
-service: criando-template-de-api-com-sls-e-middy
+service: servereless-template-api
 
 provider:
   name: aws
   runtime: nodejs20.x
   architecture: arm64
   region: sa-east-1
+  # Exemplary feature
   iam:
     role:
       statements:
@@ -24,6 +25,7 @@ build:
     exclude:
       - '@aws-sdk/*'
 
+# Exemplary lambda functions
 functions:
   upload:
     handler: src/main/functions/upload.handler
