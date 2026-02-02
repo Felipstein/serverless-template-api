@@ -1,0 +1,8 @@
+# @host = https://l9n7dwl5y9.execute-api.sa-east-1.amazonaws.com
+@host = http://localhost:3000
+
+###
+GET {{host}}/users
+
+###
+GET {{host}}/users/123123

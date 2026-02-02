@@ -1,0 +1,23 @@
+{
+  "name": "servereless-template-api",
+  "version": "1.0.0",
+  "keywords": ["serverless-template", "template", "serverless", "server", "server-template", "middy", "clean architecture", "ddd"],
+  "author": "Felipe Oliveira",
+  "license": "ISC",
+  "dependencies": {
+		"@aws-sdk/client-s3": "^3.980.0",
+		"@middy/core": "^5.5.1",
+		"@middy/http-json-body-parser": "^5.5.1",
+		"@middy/http-multipart-body-parser": "^5.5.1",
+		"@middy/http-response-serializer": "^5.5.1",
+		"@middy/http-router": "^5.5.1"
+	},
+	"devDependencies": {
+		"@types/aws-lambda": "^8.10.145",
+		"@types/node": "^22.9.0",
+		"@typescript-eslint/eslint-plugin": "^8.54.0",
+		"@typescript-eslint/parser": "^8.54.0",
+		"eslint": "^8.57.1",
+		"typescript": "^5.6.3"
+	}
+}
